@@ -40,11 +40,11 @@ class QA(Employee, EmpType):
 
 try:
     #Base class object
-    em = Employee('Rubel', 9, 80000)
+    em = Employee('Rahim', 9, 180000)
     em.show_details()
 
     #Derive class objects
-    emps = [Developer('Yaad', 8, 140000), QA('Uttam', 7, 120000)]
+    emps = [Developer('Karim', 8, 240000), QA('Alom', 7, 220000)]
 
     for emp in emps:
         emp.show_details()
